@@ -79,7 +79,7 @@ def load_image_by_index(img_index, img_size=cnfg.image_width):
 
 
 def get_dataset_size():
-    image_dir = "../datasets/oxford_pets/images"
+    image_dir = "/home/mtech0/24CS60R35/Manifold-Integrated-Gradients/datasets/oxford_pets/images"
     return len(os.listdir(image_dir))
 
 
